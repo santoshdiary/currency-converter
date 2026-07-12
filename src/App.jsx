@@ -2,6 +2,7 @@ import { useState } from 'react'
 import bgImage from './assets/bg.jpg'
 import InputBox from './components/InputBox'
 import useCurrencyInfo from './hooks/userCurrencyInfo.js'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -167,6 +168,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
